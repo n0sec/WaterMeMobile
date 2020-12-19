@@ -11,7 +11,7 @@ class WaterMe extends StatelessWidget {
         primaryColor: Color(0xFF212121),
         scaffoldBackgroundColor: Color(0xFF121212),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
-          backgroundColor: Color(0xFF58C8EE),
+          backgroundColor: Color(0xFF86C144),
         ),
       ),
       home: TodayPage(),
