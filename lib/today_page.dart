@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'reusable_card.dart';
+import 'plant_card.dart';
 
 class TodayPage extends StatefulWidget {
   @override
