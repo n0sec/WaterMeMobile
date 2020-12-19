@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'reusable_card.dart';
 
 class TodayPage extends StatefulWidget {
   @override
@@ -20,6 +21,7 @@ class _TodayPageState extends State<TodayPage> {
           IconButton(icon: Icon(Icons.more_vert), onPressed: null),
         ],
       ),
+      body: null,
       floatingActionButton: FloatingActionButton(
         onPressed: null,
         child: Icon(Icons.add),
