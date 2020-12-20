@@ -8,7 +8,6 @@ class WaterMe extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xFF212121),
         scaffoldBackgroundColor: Color(0xFF121212),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
           backgroundColor: Color(0xFF86C144),
