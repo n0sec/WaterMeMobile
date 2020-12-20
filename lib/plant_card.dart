@@ -9,12 +9,14 @@ class PlantCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(8, 16, 8, 0),
+      margin: EdgeInsets.fromLTRB(8, 8, 8, 0),
       child: Card(
+        clipBehavior: Clip.hardEdge,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
         ),
         child: ListTile(
+          tileColor: Color(0xFF212121),
           leading: Icon(Icons.check),
           title: Text(
             plantName,
@@ -29,8 +31,6 @@ class PlantCard extends StatelessWidget {
               fontStyle: FontStyle.italic,
             ),
           ),
-          // TODO: Get border radius to work with the tileColor
-          tileColor: Color(0xFF212121),
         ),
       ),
     );
