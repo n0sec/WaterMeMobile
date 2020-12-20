@@ -21,7 +21,9 @@ class _TodayPageState extends State<TodayPage> {
           IconButton(icon: Icon(Icons.more_vert), onPressed: null),
         ],
       ),
-      body: null,
+      body: ListView(
+        children: [],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: null,
         child: Icon(Icons.add),
