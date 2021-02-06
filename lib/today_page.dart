@@ -21,14 +21,6 @@ class _TodayPageState extends State<TodayPage> {
           IconButton(icon: Icon(Icons.more_vert), onPressed: null),
         ],
       ),
-<<<<<<< Updated upstream
-      body: ListView(
-        children: [],
-      ),
-=======
-<<<<<<< Updated upstream
-      body: null,
-=======
       body: ListView(
         children: [
           PlantCard(
@@ -38,8 +30,6 @@ class _TodayPageState extends State<TodayPage> {
           ),
         ],
       ),
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       floatingActionButton: FloatingActionButton(
         onPressed: null,
         child: Icon(Icons.add),
