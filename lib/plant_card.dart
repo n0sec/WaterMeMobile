@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class PlantCard extends StatelessWidget {
   final String plantName;
   final String plantNickname;
+  final IconData plantIcon;
 
-  PlantCard({this.plantName, this.plantNickname});
+  PlantCard({this.plantName, this.plantNickname, this.plantIcon});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +18,7 @@ class PlantCard extends StatelessWidget {
         ),
         child: ListTile(
           tileColor: Color(0xFF212121),
-          leading: Icon(Icons.check),
+          leading: Icon(plantIcon),
           title: Text(
             plantName,
             style: TextStyle(
